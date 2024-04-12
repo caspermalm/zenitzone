@@ -1,0 +1,65 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+ 
+
+ article{
+    display: flex;
+    flex-direction: column;    
+
+ }
+
+ 
+    
+ #navbar-top{
+   display: none;
+ }
+
+ #main-wrapper{
+   background: var(--primary);
+ }
+ 
+#navbar-main{
+   background-color: var(--secondary);
+}
+
+.navbar-brand{
+   color: var(--primary);
+}
+
+.navbar-brand:hover{
+   color: var(--warning);
+}
+
+.nav-link{
+   color: var(--primary);
+
+}
+
+.page-item.active .page-link{
+   background-color: var(--secondary);
+}
+
+
+.page-item .page-link{
+   background-color: var(--primary);
+   color: var(--secondary);
+   border-color: var(--secondary);
+}
+
+.page-item .page-link:hover{
+   background-color: color-mix(in srgb,  var(--primary), black 10%);
+}
+.page-item.active .page-link:hover{
+   background-color: color-mix(in srgb,  var(--primary), black 60%);
+}
+
+.node--view-mode-teaser{
+   border-bottom: 0px;  
+
+}
+
+.pagination{
+   border-color: var(--secondary);
+}
